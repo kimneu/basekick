@@ -1,6 +1,6 @@
-@function bk-calculateTypeOffset($line-height, $font-size, $descdender-height-scale){
+@function bk-calculateTypeOffset($line-height, $font-size, $descender-height-scale){
   $line-height-scale: $line-height / $font-size;
-  $line-height-scale: (($line-height-scale - 1) / 2) + $descdender-height-scale;
+  $line-height-scale: (($line-height-scale - 1) / 2) + $descender-height-scale;
   @return $line-height-scale;
 }
 
